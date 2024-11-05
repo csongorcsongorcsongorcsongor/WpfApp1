@@ -18,9 +18,9 @@
             <ColumnDefinition Width="400"/>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Text="Kolbász" Background="AliceBlue" TextAlignment="Center"/>
-        <TextBlock Grid.Column="1" Grid.Row="0" Text="Paprika" Background="AliceBlue" TextAlignment="Center"/>
-        <TextBlock Grid.Column="2" Grid.Row="0" Text="Sajt" Background="AliceBlue" TextAlignment="Center"/>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Kolbász" HorizontalAlignment="center" VerticalAlignment="Center" Background="AliceBlue" TextAlignment="Center"/>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="Paprika" HorizontalAlignment="center" VerticalAlignment="Center" Background="AliceBlue" TextAlignment="Center"/>
+        <TextBlock Grid.Column="2" Grid.Row="0" Text="Sajt" HorizontalAlignment="center" VerticalAlignment="Center" Background="AliceBlue" TextAlignment="Center"/>
         <TextBox Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Text="textbox" TextAlignment="Center" Background="Gray" />
         <Button Grid.Column="1" Grid.Row="2" Background="DarkGray"/>
         <StackPanel Grid.Row="1" Grid.Column="0" Grid.RowSpan="3" Background="LightSkyBlue" >
@@ -34,7 +34,7 @@
                 Width="125"
                 Background="Salmon"
                 CornerRadius="20">
-            <TextBlock Width="50" Height="50" Text="Trabant" TextAlignment="center" />
+            <TextBlock Text="Trabant" TextAlignment="center" HorizontalAlignment="center" VerticalAlignment="Center" />
         </Border>
         <StackPanel Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Background="Beige">
             <TextBlock Text="fehér"/>
